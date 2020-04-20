@@ -1,0 +1,9 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'event-app',
+  template: `<h1>Hello World</h1>`
+})
+export class EventAppComponent {
+  title = 'angular-fundamentals';
+}
