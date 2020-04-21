@@ -2,7 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'event-app',
-  template: `<h1>Hello World</h1>`
+  template: `
+    <nav-bar></nav-bar>
+    <event-list></event-list>
+  `,
 })
 export class EventAppComponent {
   title = 'angular-fundamentals';
